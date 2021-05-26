@@ -46,7 +46,7 @@ def make_thing_inner(target, recipes, aux_data):
             print("{} is not seen before".format(target))
             return RecipeStatus.CHANGED
 
-        # We need the file but it doesn't exists and doesn't exist bailing out.
+        # We need the file but it doesn't exist.
         print(">>> No recipe to make {}".format(target))
         return RecipeStatus.FAILED_TO_MAKE
 
