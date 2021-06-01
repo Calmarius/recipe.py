@@ -120,7 +120,7 @@ def cycle_check(target, recipes):
 
 def make_thing(target, recipes, aux_file="recipes.aux"):
     """
-    Builds the target using the gives set of recipes.
+    Builds the target using the given set of recipes.
     Stores intermediate state information in the given auxiliary file.
     """
 
